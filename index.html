@@ -65,10 +65,13 @@
 		<button onclick="functionExpression()" class="firstBtn">Function Expression</button><br>
 		<script>
 			function getMinNum(a, b) {
-				Number(a) = prompt('Введите первое число:')
-				Number(b) = prompt('Введите второе число:')
+				a = prompt('Введите первое число:')
+				b = prompt('Введите второе число:')
 
-				if (a < b){
+                                let x = Number(a);
+                                let y = Number(b);
+
+				if (x < y){
 					alert(a)
 				} else{
 					alert(b)
@@ -79,10 +82,10 @@
 				a = prompt('Введите первое число:')
 		        	b = prompt('Введите второе число:')
 
-                                Number(a)
-                                Number(b)
+                                let x = Number(a);
+                                let y = Number(b);
 
-				if (a > b){
+				if (x > y){
 					alert(a)
 				} else{
 					alert(b)
